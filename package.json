@@ -1,0 +1,36 @@
+{
+  "name": "typescript-api",
+  "version": "1.0.0",
+  "description": "Curso de NodeJS com Waldemar Neto",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "npm run build && node dist/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PauloTarsoMussolini/WaldemarNeto_CursoNode.git"
+  },
+  "keywords": [
+    "nodejs",
+    "typescript",
+    "api"
+  ],
+  "author": "Paulo de Tarso Mussolini",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/PauloTarsoMussolini/WaldemarNeto_CursoNode/issues"
+  },
+  "homepage": "https://github.com/PauloTarsoMussolini/WaldemarNeto_CursoNode#readme",
+  "devDependencies": {
+    "@types/node": "^18.7.14",
+    "typescript": "^4.8.2"
+  },
+  "dependencies": {
+    "-": "^0.0.1",
+    "@types/module-alias": "^2.0.1",
+    "D": "^1.0.0",
+    "module-alias": "^2.2.2"
+  }
+}
